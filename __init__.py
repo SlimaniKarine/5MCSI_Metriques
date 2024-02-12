@@ -14,6 +14,8 @@ def hello_world():
 @app.route("/contact/")
 def MaPremiereAPI():
    return render_template('contact.html') #COMMENTAIRE2
-  
+ @app.route("/Histogramme/")
+def MaPremiereAPI():
+    return "<h2>Histogramme</h2>" 
 if __name__ == "__main__":
   app.run(debug=True)
