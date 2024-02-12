@@ -17,5 +17,8 @@ def MaPremiereAPI():
  @app.route("/Histogramme/")
 def MaPremiereAPI():
     return "<h2>Histogramme</h2>" 
+  @app.route("/Commits/")
+def MaPremiereAPI():
+    return "<h2>Nombre de commits pour ce projet</h2>"
 if __name__ == "__main__":
   app.run(debug=True)
